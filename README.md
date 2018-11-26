@@ -32,6 +32,8 @@ For example, if you run your web system in 2 different contexts:
 * production: the environment variables USERNAME and PASSWORD define some credentials.
 * development: the `.env` file defines both variables as in the Basic example shown above.
 
+You can equally access the variables this way:
+
 ~~~
 Dotenv new config.
 
