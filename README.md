@@ -36,8 +36,8 @@ For example, if you run your web system in 2 different contexts:
 Dotenv new config.
 
 credentials := Credentials
-    username: (OSPlatform current environAt: 'USERNAME')
-    password: (OSPlatform current environAt: 'PASSWORD').
+    username: (OSPlatform current environment at: 'USERNAME')
+    password: (OSPlatform current environment at: 'PASSWORD').
 ~~~
 
 
